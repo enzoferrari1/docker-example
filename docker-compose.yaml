@@ -1,0 +1,8 @@
+services:
+  api: 
+    build: ./api
+    container_name: api-container
+    ports:
+      - '80:80'
+    volumes:
+      - ./api:/app

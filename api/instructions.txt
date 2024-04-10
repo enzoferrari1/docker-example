@@ -1,0 +1,7 @@
+Para construir la imagen:
+sudo docker build -t renaiss-test .
+Para correr la imagen en un container
+docker run -d --name mycontainer -p 80:80 renaiss-test
+
+ver:
+https://fastapi.tiangolo.com/deployment/docker/
